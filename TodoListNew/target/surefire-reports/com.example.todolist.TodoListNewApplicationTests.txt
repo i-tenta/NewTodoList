@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.todolist.TodoListNewApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.674 s <<< FAILURE! - in com.example.todolist.TodoListNewApplicationTests
+contextLoads  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.todolist.controller.TodoListController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@6d21714c]
+Caused by: java.lang.NoClassDefFoundError: TodoRepository
+Caused by: java.lang.ClassNotFoundException: TodoRepository
+
